@@ -1,0 +1,18 @@
+table, th, td { /*Estilo das bordas da tabela*/
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  font-weight: bold; /*Legendas a negrito*/
+  text-shadow: 1px 1px #000000; /*Sombra das legendas*/
+  font-family: Sans-serif; /*Fonte da familia Sans-serif para as legendas*/
+}
+
+table {
+	height: 100%; /*Altura da tabela*/
+	width: 100%;/*Largura da tabela*/
+    background-color: #b3ccff; /*Cor de fundo da tabela*/
+	text-align: center; /*Centrar o texto*/
+}
